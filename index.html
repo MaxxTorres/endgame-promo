@@ -1,0 +1,41 @@
+<!--
+ID is highest
+	- overrides tag and class
+	- only 1 element per ID
+class is middle,
+	- overrides tag
+	- multiple elements can use 1 class
+tag is lowest selector
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<div id="top_bar_div">
+		<img src="audi_logo.jpg" height="50px" width="140px">
+	</div>
+	<h1>The Audi R8</h1>
+	<p class="desc_par">"Inspired by the audacious Audi Le Mans quattro concept car, the Audi R8 merged jaw dropping design and racing pedigree—a guaranteed formula creating an unforgettable legacy."</p>
+	<h2>1st generation</h2>
+	<div class="pic_container">
+		<img class="car_img" src="r8_first_gen.jpg">
+		<img class="car_back" src="r8_first_gen_back.jpg">
+	</div>
+	<h2>2nd generation</h2>
+	<div class="pic_container">
+		<img class="car_img" src="r8_sec_gen.jpg">
+		<img class="car_back" src="r8_sec_gen_back.jpg">
+	</div>
+	<div id="specs_div">
+		<p>Specifications (top-end)</p>
+		<p class="specs_par"><b>First generation (2006-2015)</b> <br><br>5.2L FSI DOHC V10<br>7-speed dual-clutch<br>1,620–1,625 kg<br>518 hp 530Nm</p>
+		<p class="specs_par"><b>Second generation (2015-2023)</b> <br><br>5.2L FSI DOHC V10<br>7-speed dual-clutch<br>1,645 kg<br>602 hp 413Nm</p>
+	</div>
+</body>
+</html>
